@@ -140,29 +140,21 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return new Promise((resolve, reject) => {
-        fs.writeFile('./output/generatedREADME.md', fileName, data, err => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            
-            resolve({
-                ok: true
-            });
-        })
-    });
-};
+    fs.writeFile('./output/generatedREADME.md', fileName, data, err =>
+    err ? console.error(err) : console.log("LET'S GO!"))
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function(answers) {
-        console.log(answers);
-        var data = generateMarkdown(answers);
-        writeToFile(data)
-    });
+    .then(answers => {
+            console.log(answers);
+            var data = generateMarkdown(answers)
+            writeToFile(data)
+        });
 }
 
 // Function call to initialize app
 init();
+
+module.exports = questions;
