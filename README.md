@@ -1,8 +1,10 @@
 
   # READMEinator
 
-  ##Description
-  ###Program to quickly produce high quality, professional README files for your projects.
+  ## Description
+
+  ### Program to quickly produce high quality, professional README files for your projects.
+  ### Demonstration video: https://youtu.be/oJXLor0Zyb0
 
   ## Table of Contents:
   ###  * [Installation](#installation)
@@ -12,13 +14,9 @@
   ###  * [Reach Out](#reach)
   ###  * [License](#license)
   ## Installation Instructions:
-  ### undefined
+  ### Requires Node.js and Inquirer to run.
   ## Usage:
   ### Enter "node index.js" in the terminal, fill out the prompt that follows. Once completed the finished README file will be located in the Output folder.
-  ## Contribution Guidelines:
-  ### undefined
-  ## Testing Instructions:
-  ### n/a
   ## Reach Out:
   ### Github: https://github.com/vsmith95
   ### or

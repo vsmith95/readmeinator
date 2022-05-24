@@ -41,8 +41,9 @@ function generateMarkdown(answers) {
   return`
   # ${answers.title}
 
-  ##Description:
-  ###${answers.description}
+  ## Description:
+
+  ### ${answers.description}
 
   ## Table of Contents:
   ###  * [Installation](#installation)
@@ -56,7 +57,7 @@ function generateMarkdown(answers) {
   ## Usage:
   ### ${answers.usage}
   ## Contribution Guidelines:
-  ### ${answers.contributions}
+  ### ${answers.contribution}
   ## Testing Instructions:
   ### ${answers.instructions}
   ## Reach Out:
