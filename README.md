@@ -3,7 +3,7 @@
 
   ## Description
 
-  ### Program to quickly produce high quality, professional README files for your projects.
+  ### Program to quickly produce high quality, professional README files for your projects. This readme was made using the application!
   ### Demonstration video: https://youtu.be/oJXLor0Zyb0
 
   ## Table of Contents:
@@ -23,3 +23,5 @@
   ### Email: vaughnsmith95@gmail.com
 
   ## License: MIT  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![image](https://user-images.githubusercontent.com/97266465/192566296-d6d13b8e-f589-418c-bf6d-8e06910fc663.png)
